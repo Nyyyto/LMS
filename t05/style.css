@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    height: 45px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: rgb(41, 41, 41);
+    padding: 15px;
+
+}
+
+header nav ul li {
+    padding-left: 10%;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+header a:hover {
+    background: rgb(255, 0, 0) ;
+    padding: 20px
+}
+
+header a:hover {
+    transition: .2s;
+}
+
+.container {
+    margin-top: 1%
+}
+
+.container article a img{
+    height: 150px;
+}
+
+section a {
+    color: white;
+    text-decoration: none;
+
+}
+#links {
+    background-color: grey;
+    width: 300px;
+    text-align: center;
+}
+
+#noticias {
+    flex-direction: center;
+}
+
+#sobre{
+    background-color: grey;
+    color: white;
+}
+
+footer {
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+    padding: 15%;
+    color: white;
+}
+
+
+
